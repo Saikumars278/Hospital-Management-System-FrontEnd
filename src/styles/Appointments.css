@@ -1,0 +1,148 @@
+/* Global Reset */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Background (Solid Color) */
+.bgimage {
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.bgimage > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Logo Styling */
+.logo-container {
+  width: 55px;
+  height: 55px;
+}
+
+.hospital-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Navbar Styling */
+.custom-navbar {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.navbar-nav .btn {
+  font-size: 0.9rem;
+  padding: 6px 12px;
+}
+
+/* Doctor Card Styling */
+.doctor-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.doctor-card:hover .doctor-img {
+  transform: scale(1.05);
+}
+
+.doctor-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+.doctor-department {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* Buttons */
+.btn-outline-primary,
+.btn-primary {
+  border-radius: 30px;
+  padding: 6px 18px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+/* Cancel Button Styling */
+.cancel-btn {
+  border-radius: 30px;
+  padding: 4px 14px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  border: 1px solid #dc3545;
+  color: #dc3545;
+  background-color: transparent;
+  transition: all 0.2s ease;
+}
+
+.cancel-btn:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .doctor-img {
+    height: 200px;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-nav .btn {
+    width: 100%;
+    text-align: left;
+  }
+
+  .search-form {
+    flex-direction: column;
+  }
+
+  .search-form input,
+  .search-form button {
+    width: 100%;
+    border-radius: 30px !important;
+  }
+}

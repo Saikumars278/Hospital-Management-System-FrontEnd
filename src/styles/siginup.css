@@ -1,0 +1,144 @@
+/* Fullscreen Background */
+.bodys {
+  background: linear-gradient(135deg, #e6e3df, #e52e71), url('https://cdn.dribbble.com/users/10987744/screenshots/20287805/media/8a0caf248bd471b6385fedaeab171bdf.jpg') no-repeat center center/cover;
+  min-height: 100vh; /* Ensures full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centering the content vertically */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbarall {
+  margin-bottom: 20px;
+  background: linear-gradient(45deg, rgba(255, 105, 180, 0.6), rgba(70, 130, 180, 0.8));
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  background: linear-gradient(45deg, rgba(255, 105, 180, 0.6), rgba(70, 130, 180, 0.8));
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff008c;
+}
+
+/* Signup Form */
+.signup-container {
+  max-width: 510px;
+  width: 85%;
+  margin: 65px auto;
+  padding: 30px;
+  background: rgba(225, 216, 216, 0.85);
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.signup-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logoo-containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hospitall-logo {
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  margin-bottom: 8px;
+}
+
+.hospital-welcome {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #0d6efd;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.signup-title {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #333;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  padding: 10px;
+  font-size: 0.9rem;
+  border: 1px solid #ccd6e0;
+  border-radius: 8px;
+  background-color: #f9fbfd;
+  color: #333;
+}
+
+.signup-button {
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #0b5ed7;
+}
+
+.login-text {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #444;
+}
+
+.login-text a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}

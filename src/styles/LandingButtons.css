@@ -1,0 +1,61 @@
+.allin{
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.landingpage {
+  height: 100vh;
+}
+
+.hero-section {
+  background-color: #e0f2fe; /* Light blue */
+}
+
+.logo-img {
+  height: 65px; /* Adjusted logo size */
+  width: 65px;
+  object-fit: contain; /* Ensure logo maintains aspect ratio */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  margin-left: 15px;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.hover-effect:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+}
+
+.card-body {
+  padding: 15px;
+  background-color: #bac5d0;
+}
+
+.btn-primary, .btn-outline-primary {
+  border-radius: 25px; /* Rounded corners for buttons */
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+}
+.listing{
+  background-color: rgb(230, 239, 239);
+}
+.navbarall{
+  background: linear-gradient(45deg, rgba(255, 105, 180, 0.6), rgba(70, 130, 180, 0.8));
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

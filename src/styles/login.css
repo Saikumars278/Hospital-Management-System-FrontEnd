@@ -1,0 +1,75 @@
+/* login.css */
+.name {
+  background: linear-gradient(135deg, #e6e3df, #e52e71), url('https://cdn.dribbble.com/users/10987744/screenshots/20287805/media/8a0caf248bd471b6385fedaeab171bdf.jpg') no-repeat center center/cover;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.login-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  background: url('https://via.placeholder.com/1500x1000/ffffff/ffffff?text=Hospital+Background') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  background-color: rgba(225, 216, 216, 0.99);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0072ff;
+}
+
+.login-subtitle {
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+.form-label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #0072ff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.hospital-logo1 {
+  width: 100px;
+  height: auto;
+}
+
+.login-text a {
+  color: #0072ff;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}
