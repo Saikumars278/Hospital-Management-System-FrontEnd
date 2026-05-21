@@ -29,7 +29,7 @@ Hospital Management System is a full stack web application developed using React
 
 ### Landing Page
 
-![Landing Page]( )
+[DROP IMAGE HERE]
 
 ### Home Page
 
