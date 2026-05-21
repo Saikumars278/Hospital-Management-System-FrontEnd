@@ -24,52 +24,29 @@ Hospital Management System is a full stack web application developed using React
 - REST API
 
 ---
-
 ## Screenshots
 
 ### Landing Page
 
-[DROP IMAGE HERE]
-
 ### Home Page
-
-![Home Page]( )
 
 ### My Profile
 
-![My Profile]( )
-
 ### My Appointments
-
-![My Appointments]( )
 
 ### Signup Page
 
-![Signup]( )
-
 ### Login Page
-
-![Login]( )
-
 ---
-
 ## Admin Panel Screenshots
 
 ### Admin Dashboard
 
-![Admin Dashboard]( )
-
 ### Doctor Management
-
-![Doctor Management]( )
 
 ### Patient List
 
-![Patient List]( )
-
 ### Reports Page
-
-![Reports]( )
 
 ---
 
